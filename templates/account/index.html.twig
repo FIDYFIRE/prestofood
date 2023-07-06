@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon compte - Prestofood{% endblock %}
+
+{% block content %}
+    <h1>Mon compte</h1>
+    Bienvenue {{ app.user.firstname}} dans votre espace personnel
+    <hr>
+    -Modifier mon mot de passe
+    -Ajouter mes adresses
+    -Mes commandes
+    <hr>
+{% endblock %}

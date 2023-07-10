@@ -6,8 +6,8 @@
     <h1>Mon compte</h1>
     Bienvenue {{ app.user.firstname}} dans votre espace personnel
     <hr>
-    -Modifier mon mot de passe
-    -Ajouter mes adresses
-    -Mes commandes
+    -<a href="{{ path('app_account_password') }}">Modifier mon mot de passe</a><br>
+    -Ajouter mes adresses<br>
+    -Mes commandes<br>
     <hr>
 {% endblock %}
